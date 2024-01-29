@@ -1,0 +1,33 @@
+header{
+    display:flex;
+    border: 1px;
+    width: 100vw;
+    background-color: grey;
+    padding: 10px;
+    flex-direction: row;
+    justify-content: flex-end;
+    justify-content: space-around;
+    align-items: center;
+    
+
+}
+footer{
+    display: flex;
+    position: fixed;
+    bottom: 0%;
+    width: 100vw;
+    height: 10vh;
+    padding: 10px;
+    background-color: grey;
+
+}
+
+body {
+    background-image: url(spaceyes.png);
+    background-size: cover;
+}
+
+* {
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
