@@ -1,4 +1,4 @@
-header{
+    header{
     display:flex;
     border: 1px;
     width: 100vw;
@@ -47,6 +47,55 @@ body {
   background-size: 50%;
   padding: 0 5%;
   }
+@keyframes mymove {
+  from {top: 0px;}
+  to {top: 200px;}
+}
+  #iceplanet {
+  background-image: url(iceplanet.gif);
+  width: 250px;
+  height: 250px;
+  animation: leftright 15s ease 0s infinite;
+  background-color: transparent;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 50%;
+  padding: 0 5%;
+  }
+@keyframes mymove {
+  from {top: 0px;}
+  to {top: 400px; left: 200px}
+}
+  #waterground {
+  background-image: url(watergroundplanet.gif);
+  width: 250px;
+  height: 250px;
+  animation: leftright 15s ease 0s infinite;
+  background-color: transparent;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 50%;
+  padding: 0 5%;
+  }
+@keyframes mymove {
+  from {top: 0px;}
+  to {top: 100px; right: 150px}
+}
+  #fart {
+  background-image: url(fart.gif);
+  width: 250px;
+  height: 250px;
+  animation: leftright 15s ease 0s infinite;
+  background-color: transparent;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 50%;
+  padding: 0 5%;
+  }
+@keyframes mymove {
+  from {top: 0px;}
+  to {top: 200px; right:100}
+}
 * {
     overflow-x: hidden;
     overflow-y: hidden;
